@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: blue;
+}
+
+.header {
+  margin: auto;
+  width: 80%;
+  color: #fff;
+}
+
+.footer {
+  margin: auto;
+  color: #fff;
+  width: 50%;
+  text-align: center;
+}
+
+.container img {
+  width: 80%;
+}
+
+.banner {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
+}
+
+.gallery {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
